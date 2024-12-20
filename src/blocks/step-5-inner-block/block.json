@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "evergreen-blocks/step-5-inner-blocks",
+	"version": "1.0.0",
+	"title": "Inner Blocks",
+	"category": "evergreen-blocks",
+	"icon": "tagcloud",
+	"description": "Nested Blocks: Using InnerBlocks",
+	"keywords": [ "boilerplate","nested", "inner block" ],
+	"textdomain": "evergreen-blocks",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:index.js"
+}

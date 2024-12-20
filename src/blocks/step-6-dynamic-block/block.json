@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "evergreen-blocks/step-6-dynamic-block",
+	"version": "1.0.0",
+	"title": "Dynamic Block",
+	"category": "evergreen-blocks",
+	"icon": "database",
+	"description": "Dynamic Block (PHP)",
+	"keywords": [ "boilerplate","dynamic"],
+	"textdomain": "evergreen-blocks",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:index.js"
+}

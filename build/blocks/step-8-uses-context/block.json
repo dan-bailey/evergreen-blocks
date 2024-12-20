@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "evergreen-blocks/step-8-uses-context",
+  "version": "1.0.0",
+  "title": "Uses Context",
+  "category": "evergreen-blocks",
+  "icon": "controls-repeat",
+  "description": "Use values provided from ancestor blocks",
+  "keywords": [
+    "boilerplate",
+    "use context"
+  ],
+  "textdomain": "evergreen-blocks",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "contextRecordId": {
+      "type": "number"
+    }
+  },
+  "usesContext": [
+    "evergreen-blocks/recordId"
+  ],
+  "editorScript": "file:index.js"
+}
