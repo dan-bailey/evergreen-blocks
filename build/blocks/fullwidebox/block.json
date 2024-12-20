@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "evergreen/fullwidebox",
+  "version": "1.0.0",
+  "title": "Full Width Box",
+  "category": "evergreen",
+  "icon": "smiley",
+  "description": "The box that is full-browser with, with only minimal internal padding for layout.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "evergreen",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

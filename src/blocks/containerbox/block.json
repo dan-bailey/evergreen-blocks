@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "evergreen/containerbox",
+	"version": "1.0.0",
+	"title": "Containerbox",
+	"category": "evergreen",
+	"icon": "smiley",
+	"description": "The box that constrains content to the width of the nav menu container.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "evergreen",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

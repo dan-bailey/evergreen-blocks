@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "evergreen/textcard",
+  "version": "1.0.0",
+  "title": "Text Card",
+  "category": "evergreen",
+  "icon": "smiley",
+  "description": "The text-only, no-CTA (no-button) block for displaying compact content.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "evergreen",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

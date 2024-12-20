@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "evergreen/picturecard",
+  "version": "1.0.0",
+  "title": "Picture Card",
+  "category": "evergreen",
+  "icon": "analytics",
+  "description": "The fancy card, with imagery and an optional button..",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "evergreen",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
