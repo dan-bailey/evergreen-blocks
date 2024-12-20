@@ -1,11 +1,12 @@
 # evergreen-blocks
-Used with the Evergreen dental theme.
+Used with the Evergreen Dental Theme.
 
 ## initial batch of blocks
 * mint blockquote section
 * evergreen text block
 * 3-card flex row
-* contact us banner
+* full width container
+* standard container
 
 ## add the following blocks
 * hero text and image (left)
